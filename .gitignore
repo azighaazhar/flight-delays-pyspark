@@ -1,3 +1,18 @@
+# --- Project specific ---
+# Dataset (besar, tidak di-commit; cara unduh ada di README)
+data/
+
+# Spark artifacts
+spark-warehouse/
+metastore_db/
+derby.log
+*.parquet
+checkpoint/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
